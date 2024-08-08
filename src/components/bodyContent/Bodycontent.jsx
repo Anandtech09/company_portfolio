@@ -73,7 +73,7 @@ const Bodycontent = () => {
                 <button onClick={togglePopup}>Let's Get Started...</button>
             </div>
             <div className="into-image" data-aos="zoom-in-up">
-                <img src="./public/assets/images/file.png" alt="zenix" />
+                <img src="/assets/images/file.png" alt="zenix" />
             </div>
             {showPopup && (
                 <div className="popup-overlay" onClick={togglePopup}>

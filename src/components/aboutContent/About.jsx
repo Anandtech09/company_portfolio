@@ -23,10 +23,10 @@ const About = ({ sections }) => {
         <div className="copyright">
         <p>&copy; 2024 Zenix. All rights reserved.</p>
         <span id="social-media">
-            <img id="linkedin-icon" src="./public/assets/svg/linkedin.svg" alt="" />
-            <img id="fb" src="./public/assets/svg/fb.svg" alt="fb" />
-            <img id="insta-icon" src="./public/assets/svg/insta.svg" alt="" />
-            <img id="whatsapp" src="./public/assets/svg/whatsapp.svg" alt="" />
+            <img id="linkedin-icon" src="/assets/svg/linkedin.svg" alt="" />
+            <img id="fb" src="/assets/svg/fb.svg" alt="fb" />
+            <img id="insta-icon" src="/assets/svg/insta.svg" alt="" />
+            <img id="whatsapp" src="/assets/svg/whatsapp.svg" alt="" />
         </span>
         </div>
         </section>
