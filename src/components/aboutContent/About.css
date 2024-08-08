@@ -1,0 +1,98 @@
+
+#section-2{
+    display: flex;
+    flex-direction: column;
+	margin-top: 5em;
+	padding-top: 1em;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+}
+
+.row #column1, 
+.row #column2,
+.row #column3{
+		float: left;
+		width: 320px;
+		padding: 80px 40px 80px 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column-title h2{
+	font-size: 30px;
+    font-family: "Nabla", system-ui;
+}
+
+p{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.button {
+    background-color: black;
+    padding:8px 23px 8px 23px ;
+    border-radius: 32px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(244, 239, 239);
+    box-shadow: 2px 4px 8px grey;
+    filter: drop-shadow(2px 4px 8px grey);
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.line > p {
+    background-color: white;
+}
+
+span > img {
+    height: 30px;
+    width: 30px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#social-media {
+    display: flex;
+    gap:12px;
+    align-items: center;
+}
+
+#social-media > #whatsapp:hover {
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+#social-media > #fb:hover{
+    filter: invert(43%) sepia(95%) saturate(6073%) hue-rotate(190deg) brightness(103%) contrast(103%);  
+}
+
+#social-media > #insta-icon:hover {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border-radius: 8px;
+}
+
+#social-media > #linkedin-icon:hover{
+    filter: invert(24%) sepia(91%) saturate(2278%) hue-rotate(177deg) brightness(98%) contrast(106%);
+}
+  
+  
