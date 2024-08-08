@@ -9,7 +9,7 @@ const Bodycontent = () => {
     const [errors, setErrors] = useState({ name: '', email: '', phone: '' });
 
     useEffect(() => {
-        Aos.init({ duration: 1000 }); // Initialize AOS with a duration
+        Aos.init({ duration: 1000 });
     }, []);
 
     const togglePopup = () => {
@@ -73,7 +73,7 @@ const Bodycontent = () => {
                 <button onClick={togglePopup}>Let's Get Started...</button>
             </div>
             <div className="into-image" data-aos="zoom-in-up">
-                <img src="./src/assets/images/file.png" alt="zenix" />
+                <img src="./public/assets/images/file.png" alt="zenix" />
             </div>
             {showPopup && (
                 <div className="popup-overlay" onClick={togglePopup}>

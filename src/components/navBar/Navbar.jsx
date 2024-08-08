@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="nav-container">
             <div className="nav-logo">
                 <img
-                    src="./src/assets/images/zenix.png"
+                    src="./public/assets/images/zenix.png"
                     alt="logo"
                     className="logo"
                 />

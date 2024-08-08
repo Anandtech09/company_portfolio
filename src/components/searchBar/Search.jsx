@@ -12,7 +12,7 @@ const Search = ({ handleSearch }) => {
                 onChange={(e) => handleSearch(e.target.value)} 
             />
             <div className="search-icon">
-                <img src="./src/assets/svg/search.svg" alt="Search Icon" />
+                <img src="./public/assets/svg/search.svg" alt="Search Icon" />
             </div>
         </div>
         </div>
